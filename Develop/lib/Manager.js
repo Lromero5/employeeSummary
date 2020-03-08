@@ -11,11 +11,11 @@ class Manager extends Employee {
     getRole(){
         return "Manager";
     }
-}
 
-//test
-// const jr = new Manager ('Jr', 76, 'eddie@gmail.com', 'office number ' + 56);
-//   console.log(jr.getRole())
+    getOffice(){
+       return this.officeNumber;
+   }
+}
 
 
 
